@@ -1,2 +1,3 @@
-# Espacio-Clinico-
-Sistema de Gestión de Veteriaria - PHP Laravel + MariaDB + TailWind CSS
+# Espacio Clinico 
+
+Es un Sistema de Gestión de Veteriaria desarrollado con PHP Laravel, MariaDB y TailWind CSS. 
