@@ -1,0 +1,128 @@
+.contenido{
+    position: absolute; 
+    width: 100%;
+}
+
+.titulo_pag{
+    height: 80px;
+    background-color: #037171;
+}
+.titulo_pag_tran{
+    height: 80px;
+    font-size: 30px;
+    color: #037171bb;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 340px){
+    #calendar{
+        padding: 10px;
+    }
+    #contenido_tab{
+        font-size: 10px;
+        padding: 10px;
+    }
+    #contenido_tab_calendar{
+        padding: 10px;
+        font-size: 10px;
+        padding: 10px;
+    }
+    #contenido{
+
+        padding: 10px;
+    }
+    .titulo_pag{
+        padding-left: 60px;
+        padding-top: 20px;
+        font-size: 25px;
+    }
+    .icon{
+        font-size: 10px;
+    }
+    .boton{
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        margin-left: auto; 
+        margin-right: auto;
+    }
+}
+ 
+@media screen and (min-width: 768px){
+    #calendar{
+        padding: 10px;
+    }
+    #contenido_tab{
+        font-size: 13px;
+        padding: 10px;
+    }
+    #contenido{
+
+        padding: 10px;
+    }
+    .contenido{
+        padding:0px;
+    }
+    .titulo_pag{
+        padding-left: 20px;
+        padding-top: 20px;
+        font-size: 30px;
+    }
+    #menu_extension{
+        display: none;
+    }
+}
+@media screen and (min-width: 992px){
+    .titulo_pag{
+        font-size: 40px;
+    }
+    .contenido{
+        padding-left: 300px;
+        padding-right: 0px;
+        padding-bottom: 20px;
+    }
+    #calendar{
+        font-size: 14px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    #contenido{
+        padding-top: 20px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }    
+    #contenido_tab{
+        font-size: 16px;
+        padding: 5px;
+    }
+    #contenido_tab_calendar{
+        font-size: 16px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    
+    .icon{
+        font-size: 20px;
+    }
+    .boton{
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        margin-left: auto; 
+        margin-right: auto;
+    }
+    #menu_extension{
+        display: none;
+    }
+}
